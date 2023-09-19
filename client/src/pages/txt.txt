@@ -1,0 +1,5 @@
+ .then((result) => {
+        console.log(result);
+        navigate("/");
+      })
+      .then((err) => console.log(err));
